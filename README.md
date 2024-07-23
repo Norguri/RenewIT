@@ -11,8 +11,8 @@ We, TechCycle, aim to provide high-quality refurbished gadgets and comprehensive
 <ul>
 	<li>PHP 7.4.33+ (Current Server's PHP version)</li>
 	<li>Database: 8.0.31 - MySQL Community Server - GPL</li>
-	<li></li>
-	<li></li>
+	<li>Composer PHP 7.2+ users</li>
+	<li>PHP Intelephense(VS Code Extension</li>
 </ul>
 
 <h2>Documentation/Sources</h2>

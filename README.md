@@ -1,4 +1,4 @@
-<h1>RENEW IT</h1>
+<h1>RENEWIT</h1>
 
 <h2>Description</h2>
 <p>renewIT aims to be the leading provider of high-quality, affordable refurbished gadgets and expert repair services in the Philippines. Our mission is to make technology accessible and sustainable by offering reliable, refurbished electronic devices and top-notch repair solutions.</p>
@@ -9,11 +9,11 @@ We, TechCycle, aim to provide high-quality refurbished gadgets and comprehensive
 <h2>Pre-requisites</h2>
 
 <ul>
-	<li>Bootstrap 5</li>
+	<li></li>
 	<li>PHP 7.4.33+ (Current Server's PHP version)</li>
 	<li>Database: 8.0.31 - MySQL Community Server - GPL</li>
-	<li>jQuery 3.6.1</li>
-	<li>jQuery Datatables 1.12.1 (CDN)</li>
+	<li></li>
+	<li></li>
 </ul>
 
 <h2>Documentation/Sources</h2>

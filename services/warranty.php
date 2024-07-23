@@ -1,26 +1,27 @@
 <?php
 // Retrieve necessary data from the database or any other source
-$checkupTitle = "Care";
-$checkupDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque elit quis ex gravida, ac tincidunt massa efficitur.";
-$checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
+$warrantyTitle = "Warranty";
+$warrantyDescription = "At ReNewIt, we are dedicated to providing the highest quality service and ensuring our customers' peace of mind. Our warranty covers both parts and labor for repairs, ensuring that your devices are protected long after they leave our workshop.";
+$warrantySchedule = "Monday to Friday: 9 AM - 5 PM";
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Free Checkups</title>
+    <title>Warranty</title>
     <!-- Add any necessary CSS or JavaScript files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style> 
-
         /* Global Styles */
-        :root{
-            --green:#3EB489;
-            --black:#444;
-            --light-color:#111;
-            --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
-            --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
-            --border:.2rem solid var(--green);
+        :root {
+            --light-red: #FFA07A;
+            --light-orange: #FF4500;
+            --black: #444;
+            --light-color: #111;
+            --box-shadow: .5rem .5rem 0 rgba(255, 69, 0, .2);
+            --text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);
+            --border: .2rem solid var(--light-red);
         }
+
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
@@ -47,18 +48,18 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background: #00A86B;
+            background: var(--light-orange);
             color: #fff;
         }
 
         .header .logo {
             font-size: 2.5rem;
-            color: #444;
+            color: #fff;
             text-decoration: none;
         }
 
         .header .logo i {
-            color: #c0392b;
+            color: var(--light-red);
         }
 
         .header .navbar a {
@@ -119,82 +120,81 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
             text-align: center;
         }
 
-        .btn{
+        .btn {
             display: inline-block;
             margin-top: 1rem;
             padding: .5rem;
             padding-left: 1rem;
-            border:var(--border);
+            border: var(--border);
             border-radius: .5rem;
             box-shadow: var(--box-shadow);
-            color:var(--green);
+            color: var(--light-red);
             cursor: pointer;
             font-size: 1.7rem;
             background: #fff;
         }
 
-        .btn span{
-            padding:.7rem 1rem;
+        .btn span {
+            padding: .7rem 1rem;
             border-radius: .5rem;
-            background: var(--green);
-            color:#fff;
+            background: var(--light-red);
+            color: #fff;
             margin-left: .5rem;
         }
 
-        .btn:hover{
-            background: var(--green);
-            color:#fff;
+        .btn:hover {
+            background: var(--light-red);
+            color: #fff;
         }
 
-        .btn:hover span{
-            color: var(--green);
-            background:#fff;
+        .btn:hover span {
+            color: var(--light-red);
+            background: #fff;
             margin-left: 1rem;
         }
-
     </style>
 </head>
-]<body>
+<body>
     <header class="header">
-        <a href="#" class="logo"> <i class="fas fa-stethoscope"></i> <strong>MedAppoint</strong></a>
+        <a href="#" class="logo"> <i class="fas fa-shield-alt"></i> <strong>ReNewIt</strong></a>
     </header>
 
     <div class="container">
-        <h1>Care Section</h1>
-        <p>At MedAppoint, we provide comprehensive and compassionate care to our patients. Our dedicated healthcare professionals are committed to ensuring your well-being and providing personalized treatment.</p>
-        <p>Key features of our care services:</p>
+        <h1><?php echo $warrantyTitle; ?></h1>
+        <p><?php echo $warrantyDescription; ?></p>
+        <p>At ReNewIt, we are committed to providing quality repair services with a focus on reliability and customer satisfaction. Our warranty covers the following:</p>
         <ul>
-            <li>Experienced and skilled medical professionals</li>
-            <li>Individualized treatment plans</li>
-            <li>Emphasis on patient comfort and safety</li>
-            <li>Collaborative approach to healthcare</li>
-            <li>Continuous monitoring and follow-up care</li>
+            <li>Coverage for parts and labor for all repairs performed</li>
+            <li>Free diagnosis and repair of issues covered under warranty</li>
+            <li>Replacement of defective parts with high-quality components</li>
+            <li>Quick turnaround times for warranty repairs</li>
+            <li>Comprehensive support and assistance</li>
         </ul>
 
-        <h2>Why Choose Our Care Services?</h2>
+        <h2>Why Choose Our Warranty?</h2>
         <ul>
-            <li>Compassionate and patient-centered care</li>
-            <li>Access to a wide range of medical specialties</li>
-            <li>State-of-the-art diagnostic and treatment options</li>
-            <li>Efficient and streamlined care processes</li>
-            <li>Focus on promoting overall health and well-being</li>
+            <li>Peace of mind with our reliable warranty coverage</li>
+            <li>High-quality repairs using genuine parts</li>
+            <li>Experienced technicians ensuring top-notch service</li>
+            <li>Customer-centric approach with prompt support</li>
+            <li>Transparent terms and conditions</li>
         </ul>
 
         <h2>FAQs</h2>
-        <h3>Q: What medical specialties do you cover?</h3>
-        <p>A: We cover a wide range of medical specialties, including cardiology, neurology, orthopedics, dermatology, and more. Our multidisciplinary team ensures comprehensive care for various health conditions.</p>
+        <h3>Q: What is covered under your warranty?</h3>
+        <p>A: Our warranty covers parts and labor for all repairs we perform. It includes replacement of defective parts and free diagnosis of issues covered under the warranty.</p>
 
-        <h3>Q: How do you ensure patient safety?</h3>
-        <p>A: Patient safety is our top priority. We adhere to strict safety protocols, maintain clean and hygienic facilities, and implement advanced infection control measures to protect our patients and staff.</p>
+        <h3>Q: How long is the warranty period?</h3>
+        <p>A: The warranty period varies based on the type of repair and parts used. Generally, our warranty ranges from 90 days to one year.</p>
 
-        <h3>Q: Can I get a second opinion on my diagnosis or treatment plan?</h3>
-        <p>A: Absolutely! We understand the importance of second opinions. Our healthcare professionals are open to discussing your concerns and providing second opinions to ensure you make informed decisions about your care.</p>
+        <h3>Q: What should I do if I encounter an issue during the warranty period?</h3>
+        <p>A: If you experience any issues during the warranty period, please contact us immediately. We will arrange for a diagnosis and repair of the issue as quickly as possible.</p>
 
         <a href="http://localhost:3000/index.php#services" class="btn"> Back to main page <span class="fas fa-chevron-right"></span> </a>
     </div>
 
     <footer>
-        <p>&copy; <?php echo date('Y'); ?> MedAppoint. All rights reserved.</p>
+        <p>&copy; <?php echo date('Y'); ?> ReNewIt. All rights reserved.</p>
     </footer>
 </body>
 </html>

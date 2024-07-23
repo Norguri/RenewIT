@@ -201,8 +201,8 @@ $doctors = $conn->query($q);
                 <a href="#home"> <i class="fas fa-chevron-right"></i> Home </a>
                 <a href="#about"> <i class="fas fa-chevron-right"></i> About </a>
                 <a href="#services"> <i class="fas fa-chevron-right"></i> Services </a>
-                <a href="#products"> <i class="fas fa-chevron-right"></i> Products </a>
-                <a href="#contact"> <i class="fas fa-chevron-right"></i> Contact </a>
+                <a href="#doctors"> <i class="fas fa-chevron-right"></i> Products </a>
+                <a href="#appointment"> <i class="fas fa-chevron-right"></i> Contact </a>
             </div>
 
             <div class="box">

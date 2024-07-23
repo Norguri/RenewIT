@@ -52,12 +52,12 @@ require 'Login/controllers/emailver.php';
 
 <section class="home" id="home">
     <div class="image">
-        <img src="images/giphy.webp" alt="">
+        <img src="images/2.gif" alt="">
     </div>
 
     <div class="content">
-        <h3>From Illness to Wellness, We Journey Together</h3>
-        <p>Your Health is Our Priority: Empowering Wellness, Providing Expert Care, and Guiding Your Journey to Lifelong Vitality.</p>
+        <h3>Let's refurbish your damn fucking devices bitches</h3>
+        <p>I love asses</p>
         <a href="#appointment" class="btn"> Set Appointment <span class="fas fa-chevron-right"></span> </a>
     </div>
 

@@ -58,7 +58,7 @@ require 'Login/controllers/emailver.php';
     <div class="content">
             <h3>Bring Your Devices Back to Life</h3>
             <p>Expert refurbishment services to extend the life of your gadgets.</p>
-            <a href="#contact" class="btn"> Get Started <span class="fas fa-chevron-right"></span> </a>
+            <a href="#appointment" class="btn"> Get Started <span class="fas fa-chevron-right"></span> </a>
     </div>
 
 </section>
@@ -74,7 +74,7 @@ require 'Login/controllers/emailver.php';
 <div class="row">
 
     <div class="image">
-        <img src="images/3.gif" alt="">
+        <img src="images/it.gif" alt="">
     </div>
 
     <div class="content">
@@ -161,7 +161,7 @@ $doctors = $conn->query($q);
     <div class="row">
 
         <div class="image">
-            <img src="images/giphy.webp" alt="">
+            <img src="images/2.gif" alt="">
         </div>
 
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">

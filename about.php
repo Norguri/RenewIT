@@ -1,7 +1,7 @@
 <?php
 // Retrieve necessary data from the database or any other source
 $checkupTitle = "About";
-$checkupDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque elit quis ex gravida, ac tincidunt massa efficitur.";
+$checkupDescription = "Welcome to MedAppoint, your all-in-one platform for seamless scheduling and appointment management in the healthcare industry. Our mission is to revolutionize the way patients and healthcare providers connect and streamline the entire appointment process.";
 $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
 ?>
 <!DOCTYPE html>
@@ -13,15 +13,15 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
     <style> 
-
         /* Global Styles */
         :root {
-            --green: #3EB489;
+            --light-red: #FF6F61;
+            --light-orange: #FFA07A;
             --black: #444;
             --light-color: #111;
-            --box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+            --box-shadow: .5rem .5rem 0 rgba(255, 105, 97, .2);
             --text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);
-            --border: .2rem solid var(--green);
+            --border: .2rem solid var(--light-red);
         }
 
         body {
@@ -50,7 +50,7 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background: #00A86B;
+            background: var(--light-red);
             color: #fff;
         }
 
@@ -129,7 +129,7 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
             border: var(--border);
             border-radius: .5rem;
             box-shadow: var(--box-shadow);
-            color: var(--green);
+            color: var(--light-red);
             cursor: pointer;
             font-size: 1.7rem;
             background: #fff;
@@ -140,18 +140,18 @@ $checkupSchedule = "Monday to Friday: 9 AM - 5 PM";
         .btn span {
             padding: .7rem 1rem;
             border-radius: .5rem;
-            background: var(--green);
+            background: var(--light-red);
             color: #fff;
             margin-left: .5rem;
         }
 
         .btn:hover {
-            background: var(--green);
+            background: var(--light-red);
             color: #fff;
         }
 
         .btn:hover span {
-            color: var(--green);
+            color: var(--light-red);
             background: #fff;
             margin-left: 1rem;
         }

@@ -52,7 +52,7 @@ require 'Login/controllers/emailver.php';
 
 <section class="home" id="home">
     <div class="image">
-        <img src="images/2.gif" alt="">
+        <img src="images/7.gif" alt="">
     </div>
 
     <div class="content">
@@ -67,7 +67,7 @@ require 'Login/controllers/emailver.php';
 
 <!-- icons section starts  -->
 
-<section class="icons-container">
+<!-- <section class="icons-container">
 
     <div class="icons">
         <i class="fas fa-user-md"></i>
@@ -93,7 +93,7 @@ require 'Login/controllers/emailver.php';
         <p>available hospitals</p>
     </div>
 
-</section>
+</section> -->
 
 <!-- icons section ends -->
 
@@ -164,7 +164,7 @@ $doctors = $conn->query($q);
 ?>
 <section class="doctors" id="doctors">
 
-    <h1 class="heading"> our <span>doctors</span> </h1>
+    <h1 class="heading"> our <span> products </span> </h1>
 
     <div class="box-container">
        <?php

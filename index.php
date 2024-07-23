@@ -142,9 +142,7 @@ $doctors = $conn->query($q);
             <h3><?php echo $row["name"] ?></h3>
             <span><?php echo $row["specialization"] ?></span>
             <div class="share">
-            <a href=<?php echo $row["fb_link"] ?> target="_blank" class="fab fa-facebook-f"></a>
-            <a href=<?php echo $row["ig_link"] ?> target="_blank" class="fab fa-instagram"></a>
-            <a href=mailto:<?php echo $row["email_link"] ?> target="_blank" class="fa fa-envelope"></a>
+            <a href=<?php echo $row["fb_link"] ?> target="_blank" class="fab fa-brands fa-shopify""></a>
             </div>
         </div>
         <?php
